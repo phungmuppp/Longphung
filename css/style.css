@@ -9643,7 +9643,7 @@ h6 {
   justify-content: flex-start;
   z-index: 1;
 }
-
+/* 
 .testimonial-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next {
   width: 40px;
@@ -9669,4 +9669,4 @@ h6 {
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
+} */
