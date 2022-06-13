@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /san-pham-dieu-cay
+Sitemap: https://thuoclaolongphung.me/sitemap.xml
