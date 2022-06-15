@@ -1,9 +1,9 @@
-	/*
-  	Flaticon icon font: Flaticon
-  	Creation date: 12/11/2020 10:28
-  	*/
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 12/11/2020 10:28
+    */
 
-@font-face {
+    @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
@@ -24,15 +24,22 @@
   }
 }
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-  font-family: Flaticon;
-        font-size: 20px;
-font-style: normal;
-margin-left: 20px;
-}
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
 
-.flaticon-stairs:before { content: "\f100"; }
+    .flaticon-stairs:before { content: "\f100"; }
 .flaticon-living-room:before { content: "\f101"; }
 .flaticon-brickwall:before { content: "\f102"; }
 .flaticon-kitchen:before { content: "\f103"; }
@@ -42,3 +49,14 @@ margin-left: 20px;
 .flaticon-office:before { content: "\f107"; }
 .flaticon-email:before { content: "\f108"; }
 .flaticon-telephone:before { content: "\f109"; }
+    
+    $font-Flaticon-stairs: "\f100";
+    $font-Flaticon-living-room: "\f101";
+    $font-Flaticon-brickwall: "\f102";
+    $font-Flaticon-kitchen: "\f103";
+    $font-Flaticon-bedroom: "\f104";
+    $font-Flaticon-house: "\f105";
+    $font-Flaticon-bathroom: "\f106";
+    $font-Flaticon-office: "\f107";
+    $font-Flaticon-email: "\f108";
+    $font-Flaticon-telephone: "\f109";
