@@ -83,7 +83,17 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+#xenthem{
+  font-size: small;
+}
 
+#next,
+#prev{
+  font-size: small;
+color: var(--primary);
+ 
+
+}
 article,
 aside,
 figcaption,
